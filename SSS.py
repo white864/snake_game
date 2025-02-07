@@ -245,7 +245,7 @@ while running:
                 SCORE_SAVE[index]= st
                 #print(st)
             elif index==change_index:                  # 到達要更換(刷新)的名次
-                SCORE_SAVE[index]=str(score)+'\n'
+                SCORE_SAVE[index]=str(score)
                 save_sure = False
             else:                                      # 其他名次更新
                 SCORE_SAVE[index]=SCORE_SAVE[index-1]
